@@ -1,0 +1,23 @@
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+.DS_Store
+
+# Backend & Extraction
+extracted/
+datapymess-backend/
+security-service/
+security-api/
+
+# Private Data
+datos simulados/
+*.csv
+
+# Docker & Infrastructure
+docker/
+n8n/
+docker-compose.yml
+Dockerfile
